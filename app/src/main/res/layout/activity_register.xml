@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5ffc1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/register_layout"
+        android:background="#c5ffc1">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/reg_my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:layout_alignParentTop="true"
+            android:background="#5abf39" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/registeract_username_textView"
+            android:id="@+id/textView"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/reg_my_toolbar"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_below="@+id/textView"
+            android:layout_alignRight="@+id/editText2"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:inputType="none" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/registeract_password_textView"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:typeface="serif"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/registeract_password_textView2"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:typeface="serif"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registeract_register_button"
+            android:id="@+id/button"
+            android:layout_below="@+id/editText3"
+            android:layout_marginTop="20dp"
+            android:layout_alignRight="@+id/editText3"
+            android:layout_alignEnd="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_alignStart="@+id/editText3"
+            android:typeface="serif"
+            android:textStyle="bold|italic"
+            android:background="#5abf39" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/registeract_login_textView"
+            android:id="@+id/textView4"
+            android:typeface="serif"
+            android:textStyle="bold|italic"
+            android:textColor="#446e25"
+            android:layout_below="@+id/button"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</ScrollView>

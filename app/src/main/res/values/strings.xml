@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyAndroidAM</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_mygui">MyGUI</string>
+    <string name="loginact_login_button">Login</string>
+    <string name="loginact_register_button">Register</string>
+    <string name="loginact_username_textView">Username</string>
+    <string name="loginact_password_textView">Password</string>
+    <string name="registeract_username_textView">Enter username</string>
+    <string name="registeract_password_textView">Enter password</string>
+    <string name="registeract_password_textView2">Confirm password</string>
+    <string name="registeract_register_button">Register</string>
+    <string name="registeract_login_textView">Go back</string>
+    <string name="action_logout">Logout</string>
+    <string name="stop_button">Stop</string>
+    <string name="hash">Hash:</string>
+    <string name="device">Device:</string>
+    <string name="ip">IP:</string>
+    <string name="mac">MAC:</string>
+    <string name="os">OS:</string>
+    <string name="nmap">Nmap:</string>
+    <string name="active">Active:</string>
+    <string name="show_button">Show</string>
+    <string name="id">ID:</string>
+    <string name="job">Job:</string>
+    <string name="send_button">Send</string>
+    <string name="load_button">Load</string>
+    <string name="last">Last:</string>
+    <string name="time">Time:</string>
+    <string name="hostname">Hostname:</string>
+    <string name="tasks">Tasks:</string>
+    <string name="results">Results:</string>
+    <string name="periodic">Periodic:</string>
+    <string name="resend">Resend</string>
+</resources>
